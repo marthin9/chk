@@ -67,7 +67,7 @@ if (empty($tokenId)) {
 }
 
 $chargeData = [
-    'amount' => $amount * 10, 
+    'amount' => $amount * 100, 
     'currency' => $currency,
     'source' => $tokenId,
     'description' => 'Charge for product/service'
